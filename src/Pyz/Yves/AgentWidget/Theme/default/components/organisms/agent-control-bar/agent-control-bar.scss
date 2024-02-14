@@ -1,0 +1,25 @@
+@mixin agent-control-bar($name: '.agent-control-bar') {
+    #{$name} {
+        position: relative;
+        background-color: $setting-color-gray-6;
+
+        &__container {
+            @include helper-breakpoint-media-max($md) {
+                flex-direction: column-reverse;
+                text-align: right;
+            }
+        }
+
+        &__header {
+            padding: rem(22) 0;
+        }
+
+        &__footer {
+            background-color: $setting-color-lightest;
+        }
+
+        @content;
+    }
+}
+
+@include agent-control-bar();
