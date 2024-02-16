@@ -4,9 +4,7 @@
     backUrl: _view.previousStepUrl,
     forms: {
         orderDetailsForm: _view.orderDetailsForm
-    },
-
-    title: 'Order Details' | trans
+    }
 } %}
 
 {% block content %}
@@ -21,7 +19,7 @@
             },
             submit: {
                 enable: true,
-                text: 'checkout.step.summary' | trans
+                text: 'checkout.step.next' | trans
             },
             cancel: {
                 enable: true,

@@ -869,6 +869,10 @@ checkout.step.error.title,Your order has not been placed.,en_US
 checkout.step.error.title,Ihre Bestellung konnte leider nicht durchgeführt werden.,de_DE
 checkout.step.error.text,Something went wrong. Sorry.,en_US
 checkout.step.error.text,Leider ging etwas schief. Tut uns leid.,de_DE
+checkout.step.next,Next,en_US
+checkout.step.next,Weiter,de_DE
+checkout.step.order-details.title,Order Details,en_US
+checkout.step.order-details.title,Order Details,de_DE
 checkout.back_button,Back to cart,en_US
 checkout.back_button,Zum Warenkorb,de_DE
 checkout.secure,Secure checkout,en_US

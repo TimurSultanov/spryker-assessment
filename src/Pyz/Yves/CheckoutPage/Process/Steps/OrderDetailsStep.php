@@ -21,14 +21,17 @@ class OrderDetailsStep extends AbstractBaseStep implements StepWithBreadcrumbInt
         return true;
     }
 
+    /**
+     * @param \Generated\Shared\Transfer\QuoteTransfer $quoteTransfer
+     */
     public function postCondition(AbstractTransfer $quoteTransfer): bool
     {
-        return true; // TODO: check format
+        return $quoteTransfer->getOrderName() !== null;
     }
 
     public function getBreadcrumbItemTitle(): string
     {
-        return 'Order Details'; //TODO: translate me
+        return 'checkout.step.order-details.title';
     }
 
     public function isBreadcrumbItemEnabled(AbstractTransfer $quoteTransfer): bool
