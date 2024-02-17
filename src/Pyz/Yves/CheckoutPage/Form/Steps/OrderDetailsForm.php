@@ -34,7 +34,7 @@ class OrderDetailsForm extends AbstractType
                 new Length(max: 30),
                 new Regex('/^[a-z0-9]+$/'),
             ],
-            'label' => 'Order Name', // Todo: translate
+            'label' => 'customer.order.order_name',
         ]);
 
         return $this;
