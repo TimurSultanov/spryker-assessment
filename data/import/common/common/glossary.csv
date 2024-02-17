@@ -679,6 +679,8 @@ customer.order.summary.items,Items,en_US
 customer.order.summary.items,Artikel,de_DE
 customer.order.summary.discounts,Discounts,en_US
 customer.order.summary.discounts,Rabatte,de_DE
+customer.order.order_name,Order Name,en_US
+customer.order.order_name,Bestellname,de_DE
 customer.newsletter.subscription,Newsletter settings,en_US
 customer.newsletter.subscription,Meine Newsletter Einstellungen,de_DE
 customer.newsletter.subscription_agreement,I agree to newsletter subscription,en_US
