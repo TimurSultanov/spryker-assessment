@@ -4,7 +4,9 @@
     backUrl: _view.previousStepUrl,
     forms: {
         orderDetailsForm: _view.orderDetailsForm
-    }
+    },
+    stepNumder: 1,
+    title: 'checkout.step.order-details.title' | trans
 } %}
 
 {% block content %}
@@ -20,16 +22,8 @@
             submit: {
                 enable: true,
                 text: 'checkout.step.next' | trans
-            },
-            cancel: {
-                enable: true,
-                url: data.backUrl,
-                text: 'general.back.button' | trans
             }
         }
     } only %}
-        {% block fields %}
-
-        {% endblock %}
     {% endembed %}
 {% endblock %}
